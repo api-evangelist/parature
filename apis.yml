@@ -1,8 +1,27 @@
 aid: parature
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parature.png
 name: Parature
-description: 'Parature is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Parature was a cloud-based customer service and self-service knowledge base
+  company founded around 2000 (originally as Cyracle) and headquartered in Herndon, Virginia.
+  Its SaaS suite covered a customer self-service knowledge base, ticketing/case management,
+  live chat, and social customer service, and it exposed a developer API for managing knowledge
+  base articles, tickets, and related data. Microsoft acquired Parature for a reported $100
+  million in January 2014 and folded its capabilities into Microsoft Dynamics CRM / Dynamics
+  365 for Customer Service. Parature from Microsoft stopped selling to new customers on
+  November 1, 2016 and the standalone service was fully retired (end of support) on May 15,
+  2018. This is a historical/defunct company profile: the parature.com domain no longer
+  resolves and there is no live developer portal, documentation, or API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/parature/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +29,28 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: 'Acquired by Microsoft (Jan 2014); standalone service retired May 15, 2018;
+  capabilities absorbed into Microsoft Dynamics 365 for Customer Service. Domain parature.com
+  no longer resolves.'
+x-acquired-by: microsoft
+x-acquired-date: '2014-01-06'
+x-retired-date: '2018-05-15'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Cloud Saas
+- Customer Service
+- Customer Support
+- Knowledge Base
+- Self Service
+- Help Desk
+- Ticketing
+- CRM
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +60,10 @@ maintainers:
 common:
 - type: Website
   url: http://www.parature.com
+- type: CompanyHistory
+  url: https://learn.microsoft.com/en-us/lifecycle/announcements/parature-end-of-support
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
