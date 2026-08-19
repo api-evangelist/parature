@@ -36,7 +36,7 @@ x-status-note: 'Acquired by Microsoft (Jan 2014); standalone service retired May
 x-acquired-by: microsoft
 x-acquired-date: '2014-01-06'
 x-retired-date: '2018-05-15'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
