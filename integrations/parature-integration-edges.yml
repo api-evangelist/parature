@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/parature/integrations
+- https://n8n.io/integrations/parature/
+- https://composio.dev/toolkits/parature
+- https://monid.ai/tools/parature
+checked:
+- https://composio.dev/toolkits/parature
+- https://monid.ai/tools/parature
+- https://n8n.io/integrations/parature/
+- https://zapier.com/apps/parature/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
